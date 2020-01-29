@@ -1,0 +1,3 @@
+1) gcc -c main.c add.c di.c sub.c mul.c 
+2) ar rc libfunc.a add.o di.o mul.o sub.o
+3) gcc main.c -o demo -lfunc -L.
